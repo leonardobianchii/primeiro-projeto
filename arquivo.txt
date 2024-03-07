@@ -1,5 +1,0 @@
-- Aprendendo o HTML
-INSTRUÇÕES	
-
-<!doctype html>	
- - O doctype é um DTD, significa Document Type Definition, ele define o tipo do html que sera gerado pelo navegador, no caso em questão a versão é 5.
