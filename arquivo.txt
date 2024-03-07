@@ -1,4 +1,4 @@
-- Aprendendo HTML
+- Aprendendo o HTML
 INSTRUÇÕES	
 
 <!doctype html>	
