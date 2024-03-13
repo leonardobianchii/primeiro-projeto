@@ -1,48 +1,72 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="pt-br">
     <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo</title>
+    <title>Pagina Básica</title>
 
 
     </head>
         <body>
-          
+            
             <div class="container">
                 <header class="cabecalho">
                     <h1 style="text-align: center;">Minha Página</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                        
+                    </nav>
+                </header>
+                
+                <section>
+                    <div>
+                    <h2>HELP</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, expedita? Cupiditate inventore eveniet sint ullam ipsum expedita dignissimos saepe! Voluptates recusandae optio et sed delectus numquam nulla, reprehenderit eligendi maiores.
+                    </p>
+                    <a href="#">Mais...</a>
+                    </div>
+                    <div id="contact">
+                        <h2>CONTACT</h2>
+                        <form>
+                            <fieldset>
+                                <legend>Customer Contact</legend>
+                                <div>
+                                    <label for="idNm">Name</label>
+                                    <input type="text" name="txtNm" id="idNm" placeholder="Type your name">
+                                </div>
+                                <div>
+                                    <label for="idNm">Email</label>
+                                    <input type="text" name="txtEmail" id="idEmail" placeholder="Type your email">
+                                </div>
+                                
+                            </fieldset>
+                        </form>
+
+                    </div>
+                </section id="conteudo-principal">
+                
+                <footer class="rodape">
+                    
                     <nav>
                         <ul>
                             <li><a href="https://www.fiap.com.br" target="_blank">Fiap</a></li>
                             <li><a href="https://www.google.com" target="_blank">Google</a></li>
                             <li><a href="https://www.github.com" target="_blank">Github</a></li>
                         </ul>
-
                     </nav>
-                </header>
-
-                <section>
-                    <p>Conteudo...</p>
-                </section id="conteudo-principal">
-
-                <footer class="rodape">
-
-
-                        <nav>
-                            <ul>
-                                <li><a href="#">Item = 1</a></li>
-                                <li><a href="#">Item = 2</a></li>
-                                <li><a href="#">Item = 3</a></li>
-                            </ul>
-                        </nav>
-
-
+                    
+                    
+                    
                 </footer>
-
+                
             </div>
-
+            
         </body>
-</html>
+        </html>
